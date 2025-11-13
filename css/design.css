@@ -1,0 +1,81 @@
+/* ---------- STYLES GÉNÉRAUX ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ---------- EN-TÊTE ---------- */
+header {
+  background: #0078d7;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- SECTION INTRO ---------- */
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  color: #0078d7;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #0078d7;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* ---------- PIED DE PAGE ---------- */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
