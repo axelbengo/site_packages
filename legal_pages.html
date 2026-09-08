@@ -145,6 +145,15 @@
                 switchTab(hash);
             }
         });
+        
+        // Ajoutez ceci juste en dessous de l'événement 'DOMContentLoaded' existant :
+		window.addEventListener('hashchange', () => {
+			const hash = window.location.hash.replace('#', '');
+			if (['confidentialite', 'apropos', 'contact'].includes(hash)) {
+				switchTab(hash);
+			}
+		});
+
     </script>
 </body>
 </html>
