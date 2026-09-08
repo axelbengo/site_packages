@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <title>Log in - aksess.com</title>
+    <title>Log in - aks6.ink</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <meta name="google-adsense-account" content="ca-pub-4741766423982776">
     <style>
         :root {
-            --itchio_white_back: #141414;
-            --itchio_gray_back: #1f1f1f;
-            --itchio_body_color: #e2e2e2;
-            --itchio_border_color: #333333;
-            --itchio_link_color: #fa5c5c;
+            --Aks6_white_back: #141414;
+            --Aks6_gray_back: #1f1f1f;
+            --Aks6_body_color: #e2e2e2;
+            --Aks6_border_color: #333333;
+            --Aks6_link_color: #fa5c5c;
         }
-        body { background-color: var(--itchio_white_back); color: var(--itchio_body_color); margin: 0; font-family: Lato, sans-serif; }
+        body { background-color: var(--Aks6_white_back); color: var(--Aks6_body_color); margin: 0; font-family: Lato, sans-serif; }
         
         /* HEADER STYLE */
         .primary_header {
             background-color: #1b1b1b;
-            border-bottom: 1px solid var(--itchio_border_color);
+            border-bottom: 1px solid var(--Aks6_border_color);
             display: flex; align-items: center; height: 50px; padding: 0 20px;
             position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
         }
@@ -63,14 +63,14 @@
     <div class="header_spacer"></div>
     <div class="header_widget">
         <div class="primary_header">
-            <a class="header_logo" href="index.html">aksess.com</a>
+            <a class="header_logo" href="index.html">aks6.ink</a>
         </div>
     </div>
 
     <div class="main">
         <div class="inner_column compressed_column">
             <div class="user_login_page base_widget">
-                <div class="stat_header_widget"><h2>Log in to aksess.com</h2></div>
+                <div class="stat_header_widget"><h2>Log in to aks6.ink</h2></div>
                 <div class="padded">
                     <!-- Zone d'affichage des erreurs -->
                     <p id="error-msg"></p>
@@ -94,6 +94,16 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+		<div style="margin-bottom: 10px; color: var(--Aks6_body_color);">
+			© 2026 <strong>Sekhmetis</strong> - Tous droits réservés.
+		</div>
+		<div style="display: flex; justify-content: center; gap: 20px;">
+			<a href="legal_pages.html#confidentialite" style="text-decoration: none; font-size: 12px;">Politique de Confidentialité</a>
+			<a href="legal_pages.html#apropos" style="text-decoration: none; font-size: 12px;">À Propos</a>
+			<a href="legal_pages.html#contact" style="text-decoration: none; font-size: 12px;">Contact</a>
+		</div>
+    </footer>
 
     <script type="module">
         import { SUPABASE_URL, SUPABASE_KEY } from './js/config.js';

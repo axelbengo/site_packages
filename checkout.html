@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finaliser l'achat - Aksess</title>
+    <title>Finaliser l'achat - Aks6</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <meta name="google-adsense-account" content="ca-pub-4741766423982776">
     <style>
         :root {
-            --itchio_white_back: #141414;
-            --itchio_gray_back: #1f1f1f;
-            --itchio_body_color: #e2e2e2;
-            --itchio_border_color: #333333;
-            --itchio_link_color: #fa5c5c;
+            --Aks6_white_back: #141414;
+            --Aks6_gray_back: #1f1f1f;
+            --Aks6_body_color: #e2e2e2;
+            --Aks6_border_color: #333333;
+            --Aks6_link_color: #fa5c5c;
         }
         body { 
-            background-color: var(--itchio_white_back); 
-            color: var(--itchio_body_color); 
+            background-color: var(--Aks6_white_back); 
+            color: var(--Aks6_body_color); 
             font-family: 'Lato', sans-serif; margin: 0; 
             display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;
         }
         .checkout-container {
-            background: var(--itchio_gray_back);
-            border: 1px solid var(--itchio_border_color);
+            background: var(--Aks6_gray_back);
+            border: 1px solid var(--Aks6_border_color);
             padding: 30px; border-radius: 4px; width: 90%; max-width: 500px; text-align: center;
         }
         .game-visual {
@@ -38,7 +38,7 @@
         .price-id { color: #888; font-size: 12px; margin-bottom: 20px; font-family: monospace; }
         
         .btn-pay {
-            background-color: var(--itchio_link_color);
+            background-color: var(--Aks6_link_color);
             color: white; border: none; padding: 15px 30px;
             font-size: 18px; font-weight: bold; border-radius: 3px;
             cursor: pointer; width: 100%; transition: opacity 0.2s;
@@ -63,6 +63,16 @@
         <button id="btn-proceed" class="btn-pay" disabled>PROCÉDER AU PAIEMENT</button>
         <p id="status-text" class="status-msg">Initialisation sécurisée...</p>
     </div>
+    <footer class="footer">
+		<div style="margin-bottom: 10px; color: var(--Aks6_body_color);">
+			© 2026 <strong>Sekhmetis</strong> - Tous droits réservés.
+		</div>
+		<div style="display: flex; justify-content: center; gap: 20px;">
+			<a href="legal_pages.html#confidentialite" style="text-decoration: none; font-size: 12px;">Politique de Confidentialité</a>
+			<a href="legal_pages.html#apropos" style="text-decoration: none; font-size: 12px;">À Propos</a>
+			<a href="legal_pages.html#contact" style="text-decoration: none; font-size: 12px;">Contact</a>
+		</div>
+    </footer>
 
     <script type="module">
     import { supabaseClient, PADDLE_ENV, PADDLE_CLIENT_TOKEN } from './js/config.js';
