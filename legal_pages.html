@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages Légales - Aks6.ink</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .container { padding: 40px 20px; line-height: 1.6; }
+        .legal-nav { display: flex; gap: 15px; margin-bottom: 30px; border-bottom: 1px solid var(--Aks6_border_color); padding-bottom: 15px; }
+        .legal-nav a { text-decoration: none; font-weight: bold; font-size: 14px; }
+        .legal-nav a.active { color: white; border-bottom: 2px solid var(--Aks6_link_color); padding-bottom: 13px; }
+        .legal-section { display: none; }
+        .legal-section.active { display: block; }
+        h1, h2, h3 { color: white; margin-top: 25px; }
+        h1 { border-bottom: 1px solid var(--Aks6_border_color); padding-bottom: 10px; font-size: 28px; }
+        h2 { font-size: 20px; }
+        h3 { font-size: 16px; }
+        p, ul { margin-bottom: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .contact-box { background: var(--Aks6_gray_back); border: 1px solid var(--Aks6_border_color); padding: 20px; border-radius: 4px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header class="header_widget">
+        <div class="primary_header">
+            <a href="#" class="header_logo">Aks6.ink</a>
+            <a href="#" class="panel_button register_button">Accueil Jeux</a>
+        </div>
+    </header>
+
+    <div class="inner_column container">
+        <nav class="legal-nav">
+            <a href="#confidentialite" id="tab-confidentialite" onclick="switchTab('confidentialite')" class="active">Politique de Confidentialité</a>
+            <a href="#apropos" id="tab-apropos" onclick="switchTab('apropos')">À Propos</a>
+            <a href="#contact" id="tab-contact" onclick="switchTab('contact')">Contact</a>
+        </nav>
+
+        <!-- SECTION POLITIQUE DE CONFIDENTIALITÉ -->
+        <section id="confidentialite" class="legal-section active">
+            <h1>Politique de Confidentialité</h1>
+            <p>Dernière mise à jour : 8 septembre 2026</p>
+            <p>La présente Politique de Confidentialité a pour but de vous informer en toute transparence sur la manière dont notre plateforme <strong>Aks6.ink</strong>, éditée par la société <strong>ma_société</strong>, collecte, utilise et protège vos données personnelles lorsque vous parcourez notre site, téléchargez ou jouez à nos jeux vidéo.</p>
+            
+            <h2>1. Responsable du Traitement des Données</h2>
+            <p>Le traitement des données personnelles collectées sur le site est géré directement par la société <strong>ma_société</strong>. Pour toute question ou demande relative à la protection de votre vie privée, vous pouvez nous écrire à notre adresse électronique dédiée au support client.</p>
+
+            <h2>2. Données Collectées et Finalités</h2>
+            <p>Nous limitons la collecte de données au strict nécessaire pour vous offrir une expérience de jeu fluide, optimisée et sécurisée :</p>
+            <ul>
+                <li><strong>Données de navigation et techniques :</strong> Nous collectons des informations telles que l'adresse IP, le type de navigateur, le système d'exploitation utilisé (Windows, Linux, iOS, Android) et vos interactions avec la plateforme. Ces données nous aident à diagnostiquer les problèmes techniques et à adapter les fichiers de téléchargement à votre système.</li>
+                <li><strong>Données analytiques et de performance :</strong> Grâce à des outils d'analyse d'audience tiers, nous suivons la popularité de nos jeux, la durée des sessions et les téléchargements effectués afin d'améliorer en permanence nos créations (notamment nos projets développés sous Godot Engine).</li>
+                <li><strong>Données liées aux applications mobiles :</strong> Pour certains de nos jeux Android, notre plateforme fournit des liens de redirection vers le Google Play Store. Veuillez noter que Google peut collecter ses propres données selon ses propres règles de confidentialité lorsque vous visitez sa boutique ou installez l'application.</li>
+            </ul>
+
+            <h2>3. Utilisation des Publicités (Google AdSense)</h2>
+            <p>Notre site affiche des publicités fournies par le programme <strong>Google AdSense</strong>. Google utilise des cookies pour diffuser des annonces basées sur vos visites antérieures sur notre site ou sur d'autres sites web.</p>
+            <ul>
+                <li>L'utilisation du cookie DART par Google lui permet de diffuser des annonces adaptées aux utilisateurs en fonction de leur navigation sur <strong>Aks6.ink</strong> et d'autres sites internet.</li>
+                <li>Les utilisateurs peuvent choisir de désactiver l'utilisation du cookie DART ou de gérer la publicité personnalisée en se rendant directement sur la page des <a href="https://www.google.com/settings/ads" target="_blank">Règles de confidentialité et conditions d'utilisation de Google</a>.</li>
+            </ul>
+            <p>Nous n'avons aucun contrôle direct sur les cookies et technologies de suivi utilisés par ces tiers annonceurs.</p>
+
+            <h2>4. Cookies et Traceurs</h2>
+            <p>Outre les cookies publicitaires, notre plateforme utilise des cookies fonctionnels et analytiques pour mémoriser vos préférences d'affichage et compiler des statistiques anonymes. Lors de votre première visite, un bandeau de consentement vous permet d'accepter, de refuser ou de personnaliser l'utilisation de ces traceurs tiers conformément à la réglementation en vigueur.</p>
+
+            <h2>5. Partage et Transfert des Données</h2>
+            <p>La société <strong>ma_société</strong> s'engage formellement à ne jamais vendre, louer ou échanger vos données personnelles à des fins commerciales. Vos informations ne sont partagées qu'avec nos prestataires de services techniques essentiels (hébergeur du site, outils d'analyse d'audience approuvés) et nos partenaires publicitaires (Google AdSense), uniquement dans le cadre des finalités décrites ci-dessus.</p>
+
+            <h2>6. Durée de Conservation et Sécurité</h2>
+            <p>Vos données de navigation et logs techniques sont conservés uniquement pendant la durée nécessaire à la réalisation des objectifs poursuivis (généralement quelques mois pour les analyses de trafic), dans le respect des limites légales. Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles rigoureuses pour protéger vos informations contre tout accès, modification ou divulgation non autorisés.</p>
+
+            <h2>7. Vos Droits</h2>
+            <p>Conformément aux lois internationales sur la protection des données (notamment le RGPD en Europe), vous disposez d'un droit d'accès, de rectification, de limitation et d'effacement de vos données personnelles. Pour exercer ces droits, il vous suffit de soumettre une demande claire à notre adresse e-mail de contact figurant sur la page dédiée.</p>
+        </section>
+
+        <!-- SECTION À PROPOS -->
+        <section id="apropos" class="legal-section">
+            <h1>À Propos de Aks6.ink</h1>
+            <p>Bienvenue sur <strong>Aks6.ink</strong>, l'univers numérique officiel de la société <strong>Sekhmetis</strong> entièrement dédié au jeu vidéo indépendant.</p>
+            <p>Notre plateforme est née d'une volonté simple : centraliser, partager et rendre accessibles nos propres créations de jeux vidéo. Conçues avec passion à l'aide de technologies modernes comme le moteur open-source <strong>Godot Engine</strong> (ainsi que d'autres outils performants du secteur au fil de nos futurs développements), nos productions s'adressent à tous les profils de joueurs.</p>
+            
+            <h2>Notre Engagement Multiplateforme</h2>
+            <p>Parce que le jeu vidéo ne devrait connaître aucune barrière technique, nous mettons un point d'honneur à proposer nos expériences sur une large variété d'écosystèmes :</p>
+            <ul>
+                <li><strong>Ordinateurs de bureau :</strong> Des versions prêtes à installer pour l'ensemble des environnements <strong>Windows</strong> et <strong>Linux</strong>.</li>
+                <li><strong>Appareils mobiles et tactiles :</strong> Une compatibilité complète pour le système <strong>iOS</strong> ainsi que des versions pour le système <strong>Android</strong>. Pour ces dernières, nous proposons à la fois des téléchargements directs et des liaisons sécurisées vers les boutiques officielles telles que le <strong>Google Play Store</strong>.</li>
+            </ul>
+
+            <h2>Notre Modèle Économique</h2>
+            <p>Afin de préserver la gratuité ou l'accessibilité financière de nos projets tout en finançant la recherche, le développement et l'infrastructure de notre infrastructure réseau, nous intégrons des espaces publicitaires discrets sur notre site via la régie Google AdSense. Nous veillons scrupuleusement à ce que ces annonces ne viennent jamais altérer votre confort visuel ou votre expérience utilisateur globale.</p>
+            <p>Éditée de manière entièrement professionnelle par <strong>ma_société</strong>, la plateforme <strong>Aks6.ink</strong> s'engage à respecter les standards de l'industrie tant en matière de qualité de service que de respect absolu de la vie privée de ses utilisateurs.</p>
+        </section>
+
+        <!-- SECTION CONTACT -->
+        <section id="contact" class="legal-section">
+            <h1>Contactez-nous</h1>
+            <p>Vous rencontrez un bug technique sur l'un de nos jeux développés sous Godot ? Vous avez une question concernant un téléchargement vers Windows, Linux ou iOS ? Ou vous souhaitez simplement nous faire part de vos retours ou d'une demande de partenariat commercial ?</p>
+            <p>L'équipe technique et le service client de la société <strong>Sekhmetis</strong> se tiennent à votre entière disposition pour vous guider et répondre à vos interrogations.</p>
+            
+            <div class="contact-box">
+                <h3>Support Client & Demandes Générales</h3>
+                <p>Pour toute correspondance électronique, notre point d'entrée unique est l'adresse e-mail suivante :</p>
+                <p><a href="mailto:contact@Sekhmeti.ink@gmail.com" style="font-size: 16px; font-weight: bold; letter-spacing: 0.5px;">contact@Aks6.ink@gmail.com</a></p>
+                <p style="margin-top: 15px; font-size: 12px; color: #aaa;"><em>Note : Nous nous efforçons de traiter l'intégralité des messages reçus sous un délai de 24 à 48 heures ouvrées. Afin de nous aider à traiter au mieux votre ticket, merci de bien vouloir préciser l'objet de votre message ainsi que le système d'exploitation concerné (Android, iOS, Windows, Linux) si votre demande est d'ordre technique.</em></p>
+            </div>
+        </section>
+    </div>
+	<footer class="footer">
+		<div style="margin-bottom: 10px; color: var(--Aks6_body_color);">
+			© 2026 <strong>Sekhmetis</strong> - Tous droits réservés.
+		</div>
+		<div style="display: flex; justify-content: center; gap: 20px;">
+			<a href="legal_pages.html#confidentialite" style="text-decoration: none; font-size: 12px;">Politique de Confidentialité</a>
+			<a href="legal_pages.html#apropos" style="text-decoration: none; font-size: 12px;">À Propos</a>
+			<a href="legal_pages.html#contact" style="text-decoration: none; font-size: 12px;">Contact</a>
+		</div>
+    </footer>
+    <script>
+        function switchTab(tabId) {
+            // Masquer toutes les sections
+            const sections = document.querySelectorAll('.legal-section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            // Retirer la classe active de tous les onglets
+            const tabs = document.querySelectorAll('.legal-nav a');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Afficher la section demandée et activer l'onglet correspondant
+            const targetSection = document.getElementById(tabId);
+            const targetTab = document.getElementById('tab-' + tabId);
+            
+            if (targetSection && targetTab) {
+                targetSection.classList.add('active');
+                targetTab.classList.add('active');
+            }
+        }
+
+        // Gestion du routage par ancres d'URL au chargement de la page
+        window.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash.replace('#', '');
+            if (['confidentialite', 'apropos', 'contact'].includes(hash)) {
+                switchTab(hash);
+            }
+        });
+    </script>
+</body>
+</html>

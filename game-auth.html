@@ -2,13 +2,23 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Authentification du Jeu - aksess.com</title>
+    <title>Authentification du Jeu - aks6.ink</title>
     <script src="https://jsdelivr.net"></script>
     <meta name="google-adsense-account" content="ca-pub-4741766423982776">
 </head>
 <body style="background:#141414; color:white; font-family:sans-serif; text-align:center; padding-top:100px;">
     <h2>Connexion à votre jeu en cours...</h2>
     <p id="status">Vérification de la session Supabase...</p>
+    <footer class="footer">
+		<div style="margin-bottom: 10px; color: var(--Aks6_body_color);">
+			© 2026 <strong>Sekhmetis</strong> - Tous droits réservés.
+		</div>
+		<div style="display: flex; justify-content: center; gap: 20px;">
+			<a href="legal_pages.html#confidentialite" style="text-decoration: none; font-size: 12px;">Politique de Confidentialité</a>
+			<a href="legal_pages.html#apropos" style="text-decoration: none; font-size: 12px;">À Propos</a>
+			<a href="legal_pages.html#contact" style="text-decoration: none; font-size: 12px;">Contact</a>
+		</div>
+    </footer>
 
     <script type="module">
         import { SUPABASE_URL, SUPABASE_KEY } from './js/config.js';
@@ -35,8 +45,8 @@
             statusJson.innerText = "Session trouvée ! Redirection vers le jeu...";
 
             // 3. Envoyer les données vers le jeu via le Deep Link
-            // Le format : aksess-game://auth?token=VALEUR&id=VALEUR
-            window.location.href = `aksess-game://auth?token=${token}&id=${userId}`;
+            // Le format : aks6-game://auth?token=VALEUR&id=VALEUR
+            window.location.href = `aks6-game://auth?token=${token}&id=${userId}`;
 
             // Optionnel : Fermer l'onglet après quelques secondes pour nettoyer le navigateur de l'utilisateur
             setTimeout(() => {
